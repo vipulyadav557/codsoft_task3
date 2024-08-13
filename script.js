@@ -1,3 +1,4 @@
+// Todo: Make M+ M- and MC functional
 let string = "";
 let buttons = document.querySelectorAll('.button');
 Array.from(buttons).forEach((button)=>{

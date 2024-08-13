@@ -2,67 +2,67 @@
 <html>
 
 <head>
-  <meta charset="utr-8">
-  <meta name="viewport" content="width=device-width">
-  <title>calculator</title>
-  <link rel="stylesheet" href="utils.css" type="text/css">
-  </link>
-  <link rel="stylesheet" href="style.css" type="text/css">
-  </link>
-
+    <meta charset="utr-8">
+    <meta name="viewport" content="width=device-width">
+    <title>calculator</title>
+    <link rel="stylesheet" href="utils.css" type="text/css">
+    </link>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    </link>
 </head>
 
 <body>
-  <h1 class="text-center">CALCULATOR</h1>
-  <div class="calculator">
-    <div class="container flex flex-col item-center mx auto m-w-20 ">
-      <div class="row">
-        <input class="input" type="text" placeholder="0" />
-      </div>
+    <h1 class="text-center">CALCULATOR</h1>
+    <div class="main">
+        <div class="calculator">
+            <div class="container flex flex-col item-center mx auto m-w-20 ">
+                <div class="row">
+                    <input class="input-box" type="text" placeholder="0" />
+                </div>
 
-      <div class="row">
+                <div class="row">
 
-        <button class="button" onclick="clearDisplay()">C</button>
-        <button class="button" onclick="setOperation('/')">/</button>
-        <button class="button" onclick="setOperation('M+')">M+</button>
-        <button class="button" onclick="setOperation('M-')">M-</button>
-      </div>
-      <div class=" row ">
+                    <button class="button" onclick="clearDisplay()">C</button>
+                    <button class="button" onclick="setOperation('/')">/</button>
+                    <button class="button" onclick="setOperation('M+')">M+</button>
+                    <button class="button" onclick="setOperation('M-')">M-</button>
+                </div>
+                <div class=" row ">
 
-        <button class="button" onclick="appendNumber('7')">7</button>
-        <button class="button" onclick="appendNumber('8')">8</button>
-        <button class="button" onclick="appendNumber('9')">9</button>
-        <button class="button" onclick="setOperation('/')">/</button>
-      </div>
+                    <button class="button" onclick="appendNumber('7')">7</button>
+                    <button class="button" onclick="appendNumber('8')">8</button>
+                    <button class="button" onclick="appendNumber('9')">9</button>
+                    <button class="button" onclick="setOperation('/')">/</button>
+                </div>
 
-      <div class="row">
-        <button class="button" onclick="appendNumber('4')">4</button>
-        <button class="button" onclick="appendNumber('5')">5</button>
-        <button class="button" onclick="appendNumber('6')">6</button>
-        <button class="button" onclick="setOperation('*')">*</button>
+                <div class="row">
+                    <button class="button" onclick="appendNumber('4')">4</button>
+                    <button class="button" onclick="appendNumber('5')">5</button>
+                    <button class="button" onclick="appendNumber('6')">6</button>
+                    <button class="button" onclick="setOperation('*')">*</button>
 
 
-      </div>
+                </div>
 
-      <div class="row">
-        <button class="button" onclick="appendNumber('1')">1</button>
-        <button class="button" onclick="appendNumber('2')">2</button>
-        <button class="button" onclick="appendNumber('3')">3</button>
-        <button class="button" onclick="setOperation('-')">-</button>
-      </div>
+                <div class="row">
+                    <button class="button" onclick="appendNumber('1')">1</button>
+                    <button class="button" onclick="appendNumber('2')">2</button>
+                    <button class="button" onclick="appendNumber('3')">3</button>
+                    <button class="button" onclick="setOperation('-')">-</button>
+                </div>
 
-      <div class="row">
+                <div class="row">
 
-        <button class="button" onclick="appendNumber('0')">0</button>
-        <button class="button" onclick="appendNumber(.)">.</button>
-        <button class="button" onclick="calculate()">=</button>
-        <button class="button" onclick="setOperation('+')">+</button>
-      </div>
+                    <button class="button" onclick="appendNumber('0')">0</button>
+                    <button class="button" onclick="appendNumber(.)">.</button>
+                    <button class="button" onclick="calculate()">=</button>
+                    <button class="button" onclick="setOperation('+')">+</button>
+                </div>
+            </div>
+        </div>
+
     </div>
-  </div>
-
-
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 
 
 
